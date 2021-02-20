@@ -23,16 +23,16 @@
          for(int i = 0 ; i < data.length ; i++){
 
              //下から上に順番に並び替えます
-             for(int j = 4 ; j > i ; j--){
+             for(int j = data.length -1 ; j > i ; j--){
                 /*
                 * 問３
                 *以下、配列の添字を入れてソートを完成させなさい
                 *上の方が大きい時は互いに入れ替えます
                 */
-                if(data[i] > data[i + 1]){
+                if(data[i] > data[j]){
                     int box = data[i];
-                    data[i] = data[i + 1];
-                    data[i + 1] = box;
+                    data[i] = data[j];
+                    data[j] = box;
                 }
             }
         }
