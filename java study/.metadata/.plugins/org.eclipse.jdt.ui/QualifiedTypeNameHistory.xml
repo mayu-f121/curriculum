@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="study.Main.getName"/>
+    <fullyQualifiedTypeName name="org.junit.internal.ArrayComparisonFailure"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.shadow.com.univocity.parsers.annotations.NullString"/>
+    <fullyQualifiedTypeName name="org.junit.validator.PublicClassValidator"/>
+    <fullyQualifiedTypeName name="org.junit.runner.Result"/>
+    <fullyQualifiedTypeName name="study.Main"/>
+    <fullyQualifiedTypeName name="study.String"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.engine.execution.InvocationInterceptorChain.VoidInterceptorCall"/>
+    <fullyQualifiedTypeName name="Account"/>
+    <fullyQualifiedTypeName name="Main"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.extension.ExtensionContext.Namespace"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.params.shadow.com.univocity.parsers.common.StringCache"/>
+    <fullyQualifiedTypeName name="org.junit.jupiter.api.condition.DisabledIfSystemProperties"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="javax.print.attribute.standard.JobOriginatingUserName"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,30 @@
+package study;
+/**
+ * Study.jaca
+ */
+class Account{
+
+	//フィールド変数：パラメータ
+	private String userName;
+	private int id;
+	private String password;
+
+	//コンストラクタ
+	public Account(String userName,  int id, String password) {
+		this.userName = userName;
+		this.id = id;
+		this.password = password;
+	}
+	//  ①以下のルールに従いアカウント情報（名前、ID,パスワード）を出力するメソッドを生成してください。
+	//アクセス修飾子: 「protected」
+	//メソッド名:「printAccountInfo」
+		protected void  printAccountInfo(String userName) {
+			System.out.println("ユーザー名は、" + userName);
+		}
+		protected void printAccountInfo(int id) {
+			System.out.println( "IDは、" + id);
+		}
+		protected void printAccountInfo(String password) {
+			System.out.println("パスワードは、" + password);
+	}
+}
