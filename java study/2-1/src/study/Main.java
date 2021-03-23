@@ -22,6 +22,7 @@ public class Main  {
 		//③arr 配列をループさせ、isOdd関数を使って配列の要素が奇数かどうかの判定を行いなさい。
 		// 要素が奇数の場合には「nは奇数です。」と出力されます。
 				for(int num =0 ; num< arr .length ; num++ ) {
+				if( arr[num] % 2 != 0);
 				isOdd(num);
 				}
 				System.out.println();
@@ -37,7 +38,7 @@ public class Main  {
 
 	 public static String getName(String lastName ,String firstName) {
 		 String fullName = lastName + firstName;
-		 return 	fullName;
+		 return fullName;
 		 //戻り値を返すときの「return」を使う
 			}
 	//奇数の判定を行う
