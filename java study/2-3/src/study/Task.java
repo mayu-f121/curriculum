@@ -11,11 +11,11 @@ public class Task extends  Calculator {
 		//尚、「どのクラスから呼び出しているか」を明確にするため、plus()には呼び出し元のキーワードを付与
 
 		int a =10;
-		int b = 19;
+		int b = 20;
 		int c = 30;
 
 		System.out.println("plusメソッドの引数が一つの場合:" + plus(a));
-		System.out.println("plusメソッドの引数が二つの場合:" + plus(a + b));
-		System.out.println("plusメソッドの引数が三つの場合:" + plus(a +b + c));
+		System.out.println("plusメソッドの引数が二つの場合:"  + plus(a , b)); //演算子「+」にしてしまうと、計算されてしまうのでカンマで区切る
+		System.out.println("plusメソッドの引数が三つの場合:" + plus(a  , b ,c));
 	}
 }
