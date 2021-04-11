@@ -15,12 +15,12 @@ public class Study {
 		 * printFruitsの引数にはFruitsConstantsに指定されている定数を設定してください
 		 */
 
-		/**ただprintFruitsは"メソッド"、"インスタンス名（変数名）"の場所に記述しても呼び出すこはできません。
-		*別の変数名を使ってnewした後、その変数（インスタンス）とprintFruitsメソッドを組み合わせて呼び出す形となります。
-		*クラス名 変数名 = new クラス名();
-		*インスタンス名.インスタンスメソッド(引数);
+		/**
+		*「import fruits.Fruits;」でFruitsクラスをインポートしているのでnewせずに
+		*「クラス名.メソッド名()」で呼び出しの記述をして使うことができます。
+		*また、「レモン」と「20」も「import constants.FruitsConstants;」でインポートしているので
+		*「クラス名.定数名」で呼び出し出力されるように記述。
 		*/
-		Fruits FruitsConstants = new Fruits();
-		FruitsConstants.printFruits("レモン",20);
+		Fruits.printFruits(constants.FruitsConstants.FRUITS_LEMON_04,constants.FruitsConstants.FRUITS_COUNT_20);
 	}
 }
